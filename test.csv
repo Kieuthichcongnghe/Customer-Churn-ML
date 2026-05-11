@@ -1,0 +1,501 @@
+customerID,gender,SeniorCitizen,Partner,Dependents,tenure,PhoneService,MultipleLines,InternetService,OnlineSecurity,OnlineBackup,DeviceProtection,TechSupport,StreamingTV,StreamingMovies,Contract,PaperlessBilling,PaymentMethod,MonthlyCharges,TotalCharges,Churn
+SYN-000001,Female,0,Yes,No,4,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Credit card (automatic),19.89,31.82,Yes
+SYN-000002,Male,1,Yes,No,10,Yes,No,Fiber optic,No,Yes,No,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,89.93,877.89,No
+SYN-000003,Female,1,Yes,No,0,Yes,No,DSL,No,Yes,Yes,No,No,Yes,Month-to-month,No,Credit card (automatic),76.45, ,Yes
+SYN-000004,Female,0,Yes,No,5,Yes,Yes,Fiber optic,No,No,No,No,No,Yes,One year,No,Bank transfer (automatic),107.3,546.12,No
+SYN-000005,Male,0,No,No,10,No,No phone service,DSL,No,No,No,No,Yes,No,Month-to-month,Yes,Electronic check,49.53,513.29,Yes
+SYN-000006,Female,0,Yes,No,12,Yes,No,Fiber optic,No,Yes,No,No,No,No,Month-to-month,Yes,Credit card (automatic),79.46,970.05,Yes
+SYN-000007,Female,0,No,No,3,No,No phone service,DSL,No,Yes,Yes,No,Yes,No,Month-to-month,Yes,Electronic check,59.56,241.31,No
+SYN-000008,Female,0,Yes,No,8,Yes,No,Fiber optic,No,No,No,No,No,Yes,One year,No,Electronic check,83.13,642.6,Yes
+SYN-000009,Male,0,No,Yes,2,Yes,No,Fiber optic,No,No,Yes,No,Yes,No,Month-to-month,No,Electronic check,110.6,172.62,Yes
+SYN-000010,Male,0,Yes,No,1,Yes,No,DSL,Yes,Yes,No,Yes,Yes,Yes,Month-to-month,Yes,Mailed check,68.06,36.54,No
+SYN-000011,Male,0,No,Yes,4,Yes,No,DSL,No,No,No,No,Yes,No,Month-to-month,No,Electronic check,67.65,249.49,No
+SYN-000012,Female,0,No,Yes,11,No,No phone service,Fiber optic,No,No,No,No,No,Yes,Month-to-month,No,Credit card (automatic),81.54,867.71,No
+SYN-000013,Female,0,Yes,No,8,Yes,Yes,DSL,Yes,Yes,No,Yes,No,Yes,One year,Yes,Electronic check,67.91,546.09,Yes
+SYN-000014,Female,0,No,No,6,Yes,Yes,Fiber optic,Yes,No,No,No,No,No,Month-to-month,Yes,Electronic check,109.56,694.94,Yes
+SYN-000015,Male,0,Yes,No,3,Yes,Yes,Fiber optic,Yes,No,Yes,No,No,No,Month-to-month,Yes,Mailed check,102.38,353.33,Yes
+SYN-000016,Male,0,Yes,Yes,1,Yes,No,DSL,No,No,Yes,Yes,Yes,No,Month-to-month,Yes,Electronic check,68.15,83.28,No
+SYN-000017,Female,0,No,Yes,3,Yes,No,DSL,No,Yes,No,No,Yes,Yes,One year,Yes,Bank transfer (automatic),78.17,298.75,No
+SYN-000018,Male,0,No,No,1,Yes,No,Fiber optic,No,No,No,No,No,No,Month-to-month,No,Electronic check,76.67,65.98,Yes
+SYN-000019,Female,0,Yes,Yes,2,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,One year,No,Credit card (automatic),30.86,12.74,No
+SYN-000020,Female,0,Yes,Yes,8,Yes,No,DSL,No,No,No,No,No,Yes,Month-to-month,Yes,Mailed check,52.92,454.96,Yes
+SYN-000021,Female,1,No,Yes,1,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Electronic check,18.25,-36.91,No
+SYN-000022,Male,0,No,No,0,Yes,No,Fiber optic,No,No,Yes,No,No,Yes,Month-to-month,No,Electronic check,81.64, ,Yes
+SYN-000023,Female,0,No,No,7,Yes,No,Fiber optic,No,No,Yes,No,Yes,No,Month-to-month,Yes,Electronic check,115.06,821.02,Yes
+SYN-000024,Female,0,No,No,3,Yes,Yes,Fiber optic,No,No,No,No,No,Yes,Two year,Yes,Credit card (automatic),103.74,308.15,No
+SYN-000025,Female,0,No,No,5,Yes,No,Fiber optic,No,Yes,Yes,No,Yes,Yes,Month-to-month,No,Mailed check,96.96,479.07,No
+SYN-000026,Male,0,Yes,Yes,1,Yes,Yes,Fiber optic,No,Yes,Yes,No,Yes,No,Month-to-month,No,Electronic check,100.76,65.34,Yes
+SYN-000027,Male,1,No,No,2,Yes,No,Fiber optic,No,Yes,Yes,No,No,Yes,Month-to-month,Yes,Electronic check,96.47,192.62,Yes
+SYN-000028,Male,1,Yes,No,5,Yes,No,Fiber optic,Yes,No,Yes,No,No,No,Month-to-month,No,Credit card (automatic),106.07,560.46,Yes
+SYN-000029,Male,0,No,Yes,8,Yes,Yes,Fiber optic,No,Yes,Yes,Yes,No,No,Month-to-month,No,Electronic check,118.71,950.28,Yes
+SYN-000030,Female,0,Yes,Yes,5,Yes,Yes,DSL,No,No,No,No,Yes,Yes,Month-to-month,No,Bank transfer (automatic),57.76,263.89,No
+SYN-000031,Female,0,No,No,7,Yes,Yes,Fiber optic,Yes,Yes,Yes,No,No,No,Month-to-month,No,Bank transfer (automatic),99.12,656.41,Yes
+SYN-000032,Female,0,No,Yes,6,Yes,Yes,DSL,No,Yes,No,No,No,Yes,Month-to-month,Yes,Electronic check,55.88,310.99,Yes
+SYN-000033,Male,0,No,No,3,Yes,No,DSL,No,No,No,No,No,Yes,Month-to-month,Yes,Mailed check,72.0,227.77,Yes
+SYN-000034,Male,0,No,No,3,Yes,Yes,DSL,Yes,Yes,No,No,No,Yes,Month-to-month,Yes,Electronic check,63.31,200.24,Yes
+SYN-000035,Male,0,Yes,Yes,5,Yes,Yes,DSL,No,No,No,Yes,Yes,No,Month-to-month,No,Electronic check,73.43,343.13,No
+SYN-000036,Male,0,No,No,0,Yes,No,Fiber optic,No,Yes,No,Yes,No,No,Month-to-month,No,Credit card (automatic),86.25, ,Yes
+SYN-000037,Male,0,Yes,No,8,Yes,No,Fiber optic,No,No,Yes,No,No,No,Month-to-month,No,Mailed check,89.56,729.08,Yes
+SYN-000038,Male,0,Yes,No,7,Yes,No,Fiber optic,Yes,Yes,No,No,No,No,Month-to-month,Yes,Bank transfer (automatic),111.09,750.7,Yes
+SYN-000039,Male,0,Yes,No,3,Yes,No,DSL,No,No,Yes,No,No,Yes,Month-to-month,Yes,Mailed check,61.34,204.69,No
+SYN-000040,Female,0,Yes,No,4,Yes,Yes,Fiber optic,No,No,No,No,No,No,One year,Yes,Electronic check,75.81,280.56,Yes
+SYN-000041,Male,1,Yes,No,4,No,No phone service,Fiber optic,Yes,Yes,No,No,No,No,Month-to-month,Yes,Bank transfer (automatic),104.29,387.52,Yes
+SYN-000042,Female,0,No,Yes,8,Yes,Yes,Fiber optic,No,Yes,Yes,No,No,No,Month-to-month,Yes,Mailed check,116.24,934.52,No
+SYN-000043,Female,0,No,No,9,Yes,No,Fiber optic,Yes,Yes,Yes,No,Yes,No,Month-to-month,No,Electronic check,101.87,987.56,No
+SYN-000044,Male,1,No,Yes,1,Yes,No,Fiber optic,Yes,No,No,No,Yes,No,Month-to-month,Yes,Electronic check,79.19,101.66,Yes
+SYN-000045,Female,0,Yes,No,5,Yes,No,Fiber optic,No,No,Yes,No,No,Yes,Month-to-month,No,Mailed check,100.59,507.04,Yes
+SYN-000046,Female,0,Yes,No,0,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Bank transfer (automatic),22.22, ,No
+SYN-000047,Male,0,Yes,Yes,5,Yes,No,Fiber optic,No,Yes,Yes,No,No,No,Month-to-month,No,Electronic check,102.99,462.42,Yes
+SYN-000048,Male,0,No,No,3,Yes,Yes,Fiber optic,No,No,No,Yes,No,No,Month-to-month,Yes,Credit card (automatic),86.52,225.89,Yes
+SYN-000049,Female,0,No,No,4,Yes,No,Fiber optic,No,No,No,No,No,Yes,Month-to-month,No,Electronic check,74.94,224.43,Yes
+SYN-000050,Male,0,Yes,Yes,5,Yes,No,DSL,No,No,No,Yes,Yes,No,Month-to-month,No,Electronic check,65.55,379.65,Yes
+SYN-000051,Male,0,No,Yes,4,No,No phone service,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Electronic check,30.54,167.98,No
+SYN-000052,Male,0,Yes,No,5,Yes,No,Fiber optic,Yes,No,Yes,No,No,No,Month-to-month,No,Bank transfer (automatic),91.99,471.73,No
+SYN-000053,Female,0,Yes,No,9,Yes,Yes,DSL,No,No,Yes,No,No,No,Month-to-month,No,Electronic check,55.0,499.05,Yes
+SYN-000054,Female,1,Yes,No,10,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Electronic check,22.75,180.95,No
+SYN-000055,Female,0,Yes,Yes,0,Yes,Yes,Fiber optic,Yes,Yes,No,Yes,No,No,One year,Yes,Electronic check,108.43, ,Yes
+SYN-000056,Female,0,No,No,4,Yes,Yes,DSL,Yes,Yes,No,No,No,Yes,Month-to-month,Yes,Mailed check,73.5,347.77,No
+SYN-000057,Male,0,No,No,11,Yes,Yes,DSL,No,No,Yes,No,No,No,Month-to-month,Yes,Bank transfer (automatic),46.2,512.14,Yes
+SYN-000058,Female,0,Yes,No,6,Yes,No,DSL,No,Yes,No,No,No,No,Two year,No,Electronic check,73.3,422.86,No
+SYN-000059,Male,0,No,No,2,Yes,Yes,Fiber optic,No,No,Yes,Yes,Yes,Yes,Month-to-month,Yes,Credit card (automatic),99.03,145.32,No
+SYN-000060,Male,0,No,No,7,Yes,Yes,DSL,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,73.56,556.33,Yes
+SYN-000061,Female,0,No,No,1,No,No phone service,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Electronic check,20.6,18.5,Yes
+SYN-000062,Male,0,No,No,0,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Mailed check,24.83, ,Yes
+SYN-000063,Female,0,Yes,No,8,Yes,No,Fiber optic,No,Yes,No,No,No,No,Month-to-month,Yes,Bank transfer (automatic),75.76,578.35,No
+SYN-000064,Female,0,No,No,6,Yes,Yes,Fiber optic,Yes,No,No,No,No,Yes,Month-to-month,No,Electronic check,88.01,489.73,Yes
+SYN-000065,Female,0,Yes,No,9,Yes,Yes,DSL,No,Yes,Yes,No,No,No,Month-to-month,Yes,Mailed check,79.05,707.5,No
+SYN-000066,Female,0,No,No,4,Yes,No,DSL,No,No,Yes,No,No,No,Month-to-month,Yes,Electronic check,58.85,241.62,No
+SYN-000067,Female,0,Yes,Yes,11,Yes,Yes,Fiber optic,No,No,Yes,Yes,Yes,No,Month-to-month,No,Mailed check,117.19,1273.99,No
+SYN-000068,Male,0,No,Yes,5,Yes,No,DSL,No,No,No,No,Yes,No,Month-to-month,No,Mailed check,71.46,380.61,Yes
+SYN-000069,Male,0,Yes,No,9,Yes,No,DSL,No,No,No,No,Yes,No,Month-to-month,Yes,Credit card (automatic),71.61,646.85,No
+SYN-000070,Male,0,Yes,No,1,No,No phone service,Fiber optic,No,Yes,No,No,Yes,No,Two year,Yes,Electronic check,97.33,129.2,Yes
+SYN-000071,Male,0,No,No,1,Yes,Yes,DSL,No,No,No,Yes,No,Yes,Month-to-month,Yes,Mailed check,62.64,51.92,No
+SYN-000072,Male,0,No,No,10,Yes,No,Fiber optic,No,No,Yes,No,No,Yes,Two year,Yes,Mailed check,97.82,1069.56,No
+SYN-000073,Female,0,Yes,No,10,Yes,Yes,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,69.12,674.27,Yes
+SYN-000074,Male,0,No,No,12,Yes,No,Fiber optic,Yes,Yes,No,Yes,Yes,Yes,Month-to-month,No,Electronic check,118.75,1397.9,No
+SYN-000075,Male,1,No,Yes,4,Yes,No,Fiber optic,No,Yes,Yes,Yes,Yes,No,Month-to-month,No,Credit card (automatic),118.75,444.21,Yes
+SYN-000076,Male,0,Yes,Yes,0,No,No phone service,Fiber optic,No,No,Yes,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,94.24, ,Yes
+SYN-000077,Male,1,No,No,12,Yes,No,Fiber optic,No,Yes,Yes,No,No,No,Month-to-month,No,Bank transfer (automatic),105.19,1210.69,Yes
+SYN-000078,Female,0,No,No,7,Yes,Yes,Fiber optic,No,No,Yes,No,Yes,No,One year,Yes,Electronic check,101.63,720.25,No
+SYN-000079,Female,1,No,No,3,Yes,No,Fiber optic,No,No,No,No,No,Yes,Month-to-month,Yes,Bank transfer (automatic),107.02,263.9,No
+SYN-000080,Female,0,Yes,No,9,Yes,No,DSL,No,No,No,No,No,Yes,Month-to-month,Yes,Electronic check,79.24,718.01,No
+SYN-000081,Female,0,Yes,No,11,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Credit card (automatic),27.45,261.41,Yes
+SYN-000082,Male,0,No,No,3,Yes,No,DSL,No,No,Yes,No,Yes,No,Month-to-month,No,Mailed check,71.81,203.99,No
+SYN-000083,Female,0,No,No,10,Yes,No,DSL,No,Yes,No,Yes,Yes,No,Month-to-month,Yes,Electronic check,57.87,596.84,No
+SYN-000084,Male,0,No,Yes,10,Yes,No,DSL,No,No,No,Yes,No,No,Two year,No,Mailed check,62.89,698.02,No
+SYN-000085,Male,1,No,No,6,Yes,No,Fiber optic,No,No,Yes,No,No,No,Month-to-month,Yes,Mailed check,83.34,467.7,Yes
+SYN-000086,Male,0,No,No,8,Yes,No,Fiber optic,No,Yes,No,No,Yes,Yes,Month-to-month,No,Electronic check,109.46,871.17,Yes
+SYN-000087,Female,0,No,No,3,Yes,No,Fiber optic,No,Yes,Yes,No,No,Yes,Month-to-month,No,Electronic check,116.76,328.57,No
+SYN-000088,Male,0,No,No,12,Yes,Yes,Fiber optic,Yes,Yes,Yes,No,No,Yes,Month-to-month,Yes,Bank transfer (automatic),90.94,1065.18,Yes
+SYN-000089,Male,0,No,Yes,12,Yes,Yes,DSL,No,No,Yes,No,No,Yes,Two year,Yes,Bank transfer (automatic),61.12,711.99,No
+SYN-000090,Female,0,Yes,Yes,12,Yes,Yes,Fiber optic,No,No,Yes,No,Yes,No,One year,No,Electronic check,107.58,1315.68,Yes
+SYN-000091,Male,1,Yes,Yes,9,Yes,No,Fiber optic,No,Yes,No,No,Yes,No,Month-to-month,Yes,Credit card (automatic),84.01,741.45,Yes
+SYN-000092,Female,0,No,Yes,0,Yes,No,Fiber optic,No,Yes,Yes,Yes,Yes,No,Two year,Yes,Electronic check,103.89, ,Yes
+SYN-000093,Male,0,Yes,No,4,Yes,No,DSL,No,No,Yes,No,Yes,No,Month-to-month,No,Electronic check,57.04,240.64,Yes
+SYN-000094,Male,0,Yes,No,5,Yes,Yes,DSL,No,Yes,Yes,No,No,No,Month-to-month,Yes,Mailed check,68.87,314.05,No
+SYN-000095,Male,0,No,No,12,Yes,Yes,Fiber optic,No,No,Yes,No,No,Yes,Month-to-month,Yes,Electronic check,110.7,1317.4,No
+SYN-000096,Female,0,Yes,No,7,Yes,No,Fiber optic,No,No,Yes,Yes,No,No,Month-to-month,Yes,Electronic check,97.54,658.72,Yes
+SYN-000097,Male,0,Yes,Yes,6,Yes,Yes,Fiber optic,No,No,Yes,No,No,No,Month-to-month,Yes,Mailed check,99.52,621.12,Yes
+SYN-000098,Male,0,No,Yes,1,Yes,Yes,Fiber optic,No,No,No,No,Yes,No,Month-to-month,Yes,Electronic check,78.94,29.78,No
+SYN-000099,Male,1,No,No,10,Yes,No,Fiber optic,Yes,No,Yes,No,Yes,No,Month-to-month,Yes,Electronic check,83.3,792.77,Yes
+SYN-000100,Female,0,Yes,Yes,4,Yes,Yes,Fiber optic,No,No,No,Yes,No,No,Two year,Yes,Bank transfer (automatic),70.08,262.57,No
+SYN-000101,Female,0,Yes,No,1,Yes,Yes,DSL,No,Yes,Yes,No,No,No,Two year,Yes,Mailed check,64.11,84.6,No
+SYN-000102,Female,0,Yes,Yes,12,Yes,No,DSL,No,Yes,No,No,No,No,Month-to-month,Yes,Bank transfer (automatic),55.4,701.79,Yes
+SYN-000103,Male,1,No,No,2,Yes,No,DSL,No,No,No,No,Yes,No,Month-to-month,No,Mailed check,56.3,154.02,Yes
+SYN-000104,Female,0,No,No,0,Yes,Yes,Fiber optic,No,Yes,Yes,No,Yes,Yes,Month-to-month,Yes,Electronic check,93.45, ,Yes
+SYN-000105,Female,1,Yes,Yes,1,Yes,No,Fiber optic,No,No,Yes,No,Yes,Yes,Month-to-month,Yes,Electronic check,104.89,102.4,No
+SYN-000106,Female,0,No,Yes,5,Yes,No,Fiber optic,Yes,No,No,No,No,No,Month-to-month,Yes,Bank transfer (automatic),105.68,552.24,Yes
+SYN-000107,Male,1,Yes,No,1,Yes,No,Fiber optic,No,No,No,No,No,Yes,Month-to-month,No,Electronic check,100.49,66.15,No
+SYN-000108,Male,0,Yes,Yes,10,Yes,No,Fiber optic,No,Yes,No,No,No,No,Month-to-month,Yes,Electronic check,79.18,736.46,No
+SYN-000109,Male,0,No,No,6,No,No phone service,Fiber optic,No,No,Yes,No,No,No,Month-to-month,Yes,Bank transfer (automatic),109.32,669.02,No
+SYN-000110,Female,0,Yes,No,4,Yes,No,Fiber optic,Yes,No,Yes,No,Yes,No,Month-to-month,No,Bank transfer (automatic),85.36,311.27,No
+SYN-000111,Male,0,Yes,Yes,0,Yes,Yes,Fiber optic,No,Yes,No,No,No,Yes,Month-to-month,Yes,Mailed check,82.84, ,Yes
+SYN-000112,Male,0,Yes,No,6,Yes,No,Fiber optic,Yes,No,No,Yes,Yes,No,One year,No,Electronic check,114.32,689.51,No
+SYN-000113,Male,1,No,No,1,Yes,Yes,Fiber optic,No,No,Yes,Yes,No,No,Month-to-month,No,Electronic check,97.44,104.88,No
+SYN-000114,Female,1,No,No,12,Yes,Yes,Fiber optic,No,No,No,No,No,Yes,Month-to-month,No,Electronic check,88.44,1089.41,Yes
+SYN-000115,Male,0,No,No,3,Yes,Yes,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Bank transfer (automatic),91.43,299.25,Yes
+SYN-000116,Female,0,Yes,Yes,6,Yes,Yes,Fiber optic,No,Yes,Yes,No,Yes,Yes,Month-to-month,Yes,Electronic check,118.75,718.35,Yes
+SYN-000117,Female,0,Yes,Yes,0,Yes,Yes,Fiber optic,No,No,Yes,No,No,Yes,Month-to-month,Yes,Electronic check,82.8, ,Yes
+SYN-000118,Female,0,No,No,1,Yes,No,Fiber optic,No,No,Yes,No,No,Yes,Month-to-month,No,Electronic check,108.84,112.07,No
+SYN-000119,Male,0,Yes,No,2,Yes,No,DSL,No,Yes,No,No,Yes,No,Month-to-month,No,Mailed check,61.84,105.79,Yes
+SYN-000120,Female,0,No,Yes,0,Yes,Yes,Fiber optic,No,Yes,No,No,Yes,No,Month-to-month,No,Mailed check,79.11, ,No
+SYN-000121,Female,0,No,Yes,9,Yes,No,Fiber optic,No,Yes,Yes,Yes,No,No,Month-to-month,Yes,Electronic check,99.29,972.16,No
+SYN-000122,Female,0,Yes,No,12,Yes,No,DSL,Yes,Yes,Yes,No,Yes,Yes,Month-to-month,No,Electronic check,85.99,1037.35,Yes
+SYN-000123,Male,1,No,No,12,Yes,Yes,Fiber optic,Yes,No,No,Yes,Yes,No,Month-to-month,Yes,Electronic check,89.83,1091.47,No
+SYN-000124,Male,0,Yes,Yes,3,Yes,Yes,DSL,Yes,Yes,No,No,Yes,No,Month-to-month,No,Electronic check,81.95,224.69,Yes
+SYN-000125,Male,1,Yes,No,10,Yes,Yes,Fiber optic,No,No,No,No,Yes,Yes,Month-to-month,Yes,Mailed check,105.67,1087.3,Yes
+SYN-000126,Male,0,No,No,6,Yes,Yes,Fiber optic,No,Yes,No,No,No,Yes,Month-to-month,Yes,Electronic check,101.53,631.99,Yes
+SYN-000127,Male,0,No,No,0,Yes,Yes,DSL,Yes,No,Yes,No,No,Yes,Month-to-month,Yes,Mailed check,83.31, ,Yes
+SYN-000128,Male,0,No,Yes,1,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Bank transfer (automatic),24.6,31.05,No
+SYN-000129,Male,0,No,Yes,7,Yes,No,Fiber optic,Yes,No,Yes,Yes,No,Yes,Month-to-month,Yes,Credit card (automatic),95.7,700.93,Yes
+SYN-000130,Female,0,No,No,5,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Credit card (automatic),19.14,133.85,Yes
+SYN-000131,Male,1,No,No,0,Yes,Yes,DSL,No,No,Yes,Yes,Yes,No,Month-to-month,Yes,Electronic check,78.85, ,Yes
+SYN-000132,Female,0,No,No,12,Yes,Yes,Fiber optic,No,Yes,No,No,Yes,No,Month-to-month,Yes,Electronic check,98.98,1184.32,Yes
+SYN-000133,Female,0,Yes,No,9,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Electronic check,26.37,264.17,Yes
+SYN-000134,Male,0,No,No,6,Yes,Yes,Fiber optic,No,No,Yes,Yes,No,No,One year,Yes,Bank transfer (automatic),89.43,509.46,No
+SYN-000135,Female,0,No,No,12,Yes,No,DSL,No,No,No,Yes,No,Yes,Two year,Yes,Electronic check,67.25,785.46,No
+SYN-000136,Male,0,Yes,No,12,Yes,Yes,Fiber optic,Yes,No,No,No,Yes,No,Two year,No,Electronic check,91.88,1100.96,No
+SYN-000137,Female,0,Yes,No,12,No,No phone service,Fiber optic,No,Yes,Yes,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,118.75,1372.76,Yes
+SYN-000138,Male,0,Yes,No,3,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Electronic check,26.72,104.99,No
+SYN-000139,Female,0,Yes,Yes,11,Yes,Yes,Fiber optic,No,No,Yes,No,No,No,Month-to-month,Yes,Bank transfer (automatic),91.22,974.53,No
+SYN-000140,Male,1,No,No,6,Yes,Yes,DSL,No,No,No,No,Yes,Yes,Month-to-month,Yes,Mailed check,51.53,295.04,No
+SYN-000141,Male,0,Yes,No,9,Yes,Yes,DSL,Yes,Yes,Yes,No,No,Yes,Month-to-month,Yes,Mailed check,84.41,753.29,No
+SYN-000142,Male,0,No,Yes,11,Yes,No,Fiber optic,No,No,Yes,No,No,No,Month-to-month,Yes,Credit card (automatic),92.2,1015.38,Yes
+SYN-000143,Female,0,No,No,2,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Electronic check,26.83,43.35,No
+SYN-000144,Female,0,No,Yes,5,Yes,No,DSL,No,No,Yes,No,No,Yes,Month-to-month,No,Electronic check,57.08,283.38,No
+SYN-000145,Male,0,Yes,Yes,1,Yes,No,Fiber optic,No,Yes,No,No,Yes,No,Month-to-month,No,Electronic check,76.04,74.25,Yes
+SYN-000146,Male,1,Yes,No,3,No,No phone service,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Mailed check,26.03,64.68,No
+SYN-000147,Male,0,No,Yes,5,Yes,No,DSL,No,Yes,Yes,No,Yes,No,One year,Yes,Mailed check,68.46,319.1,No
+SYN-000148,Female,0,No,No,11,Yes,Yes,DSL,No,No,No,No,No,Yes,Month-to-month,Yes,Electronic check,60.12,693.76,No
+SYN-000149,Male,0,No,No,11,Yes,No,Fiber optic,Yes,Yes,No,No,No,No,Month-to-month,No,Credit card (automatic),115.2,1204.07,Yes
+SYN-000150,Male,0,No,No,5,Yes,No,Fiber optic,Yes,No,No,Yes,Yes,No,Two year,No,Electronic check,113.18,559.73,No
+SYN-000151,Female,0,Yes,Yes,4,Yes,Yes,DSL,Yes,No,No,No,No,Yes,Month-to-month,Yes,Electronic check,59.12,222.41,Yes
+SYN-000152,Female,1,No,Yes,6,Yes,No,Fiber optic,No,No,Yes,Yes,Yes,Yes,Month-to-month,Yes,Mailed check,88.04,540.8,Yes
+SYN-000153,Male,0,Yes,Yes,11,Yes,Yes,Fiber optic,No,Yes,Yes,No,Yes,Yes,Month-to-month,Yes,Credit card (automatic),110.27,1169.34,No
+SYN-000154,Female,0,Yes,Yes,12,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Mailed check,23.23,263.77,No
+SYN-000155,Male,1,No,No,2,Yes,Yes,Fiber optic,No,No,No,No,No,Yes,Month-to-month,Yes,Credit card (automatic),110.62,218.17,Yes
+SYN-000156,Female,0,Yes,No,2,Yes,No,Fiber optic,No,No,No,No,No,No,One year,Yes,Electronic check,103.06,238.22,Yes
+SYN-000157,Male,1,Yes,Yes,9,Yes,No,Fiber optic,No,No,No,No,No,No,Month-to-month,No,Mailed check,79.85,728.62,No
+SYN-000158,Female,0,Yes,No,3,Yes,Yes,DSL,No,Yes,Yes,Yes,No,Yes,One year,Yes,Bank transfer (automatic),81.9,210.2,No
+SYN-000159,Female,0,Yes,No,2,Yes,No,Fiber optic,No,No,No,Yes,Yes,No,Two year,Yes,Mailed check,108.79,202.96,No
+SYN-000160,Female,0,No,Yes,0,No,No phone service,DSL,No,Yes,Yes,No,Yes,Yes,Month-to-month,Yes,Electronic check,66.68, ,Yes
+SYN-000161,Male,0,Yes,Yes,5,Yes,No,Fiber optic,No,Yes,Yes,No,No,Yes,Month-to-month,No,Credit card (automatic),103.84,483.18,Yes
+SYN-000162,Female,1,No,No,5,No,No phone service,DSL,No,Yes,No,No,Yes,No,Month-to-month,No,Electronic check,66.42,329.74,No
+SYN-000163,Male,0,No,No,7,Yes,No,Fiber optic,No,No,Yes,No,No,Yes,Month-to-month,Yes,Electronic check,104.85,733.68,Yes
+SYN-000164,Male,0,Yes,Yes,2,Yes,No,DSL,No,Yes,No,Yes,Yes,No,Month-to-month,No,Credit card (automatic),68.83,126.09,Yes
+SYN-000165,Female,0,Yes,No,9,Yes,No,DSL,No,Yes,Yes,No,Yes,No,Month-to-month,No,Credit card (automatic),70.52,715.55,No
+SYN-000166,Male,0,No,No,8,Yes,Yes,DSL,No,No,No,No,No,Yes,One year,No,Credit card (automatic),57.66,448.9,No
+SYN-000167,Female,0,No,No,6,Yes,Yes,Fiber optic,No,No,No,Yes,No,No,Month-to-month,Yes,Credit card (automatic),116.05,709.79,No
+SYN-000168,Female,1,No,Yes,2,Yes,No,Fiber optic,No,Yes,No,No,No,Yes,Month-to-month,No,Electronic check,110.1,197.21,Yes
+SYN-000169,Male,0,No,Yes,6,Yes,Yes,DSL,No,Yes,No,Yes,No,No,Month-to-month,Yes,Credit card (automatic),78.82,488.75,Yes
+SYN-000170,Female,0,Yes,No,8,No,No phone service,Fiber optic,No,No,Yes,No,Yes,No,Month-to-month,Yes,Electronic check,79.86,665.0,No
+SYN-000171,Male,0,Yes,No,4,Yes,No,Fiber optic,Yes,Yes,Yes,No,No,Yes,Month-to-month,Yes,Mailed check,97.12,370.84,No
+SYN-000172,Female,0,No,No,3,Yes,Yes,Fiber optic,No,Yes,Yes,No,Yes,No,Month-to-month,Yes,Electronic check,114.09,340.63,No
+SYN-000173,Male,1,Yes,No,6,Yes,Yes,Fiber optic,No,No,Yes,No,No,No,Month-to-month,Yes,Bank transfer (automatic),103.17,592.16,No
+SYN-000174,Female,0,No,Yes,4,Yes,No,Fiber optic,No,Yes,No,Yes,Yes,No,Month-to-month,Yes,Mailed check,118.11,438.11,Yes
+SYN-000175,Male,0,No,No,5,No,No phone service,DSL,Yes,No,No,No,No,Yes,Month-to-month,No,Bank transfer (automatic),68.02,371.2,Yes
+SYN-000176,Male,0,No,No,4,Yes,No,Fiber optic,No,Yes,Yes,No,Yes,Yes,Month-to-month,Yes,Electronic check,107.25,412.38,Yes
+SYN-000177,Male,1,Yes,No,3,Yes,No,DSL,No,Yes,Yes,No,No,Yes,Month-to-month,No,Electronic check,77.9,161.29,No
+SYN-000178,Female,0,Yes,No,9,Yes,No,Fiber optic,No,Yes,No,No,No,Yes,One year,Yes,Electronic check,87.44,839.92,Yes
+SYN-000179,Female,0,Yes,No,5,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Electronic check,26.79,109.89,No
+SYN-000180,Female,0,Yes,No,6,Yes,No,Fiber optic,No,Yes,Yes,No,Yes,Yes,Two year,No,Mailed check,108.41,643.07,No
+SYN-000181,Female,0,No,No,8,Yes,No,Fiber optic,No,Yes,No,No,No,Yes,Month-to-month,No,Electronic check,76.9,664.43,No
+SYN-000182,Female,0,Yes,No,4,Yes,Yes,Fiber optic,No,No,No,No,Yes,No,Month-to-month,No,Mailed check,73.1,288.15,No
+SYN-000183,Female,0,Yes,No,1,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Electronic check,24.36,19.46,No
+SYN-000184,Male,0,Yes,Yes,11,Yes,No,DSL,Yes,Yes,Yes,No,Yes,No,Month-to-month,Yes,Electronic check,84.48,892.43,Yes
+SYN-000185,Female,0,Yes,Yes,0,Yes,No,DSL,No,No,No,No,Yes,No,Month-to-month,Yes,Mailed check,74.47, ,No
+SYN-000186,Female,0,No,Yes,7,No,No phone service,Fiber optic,No,No,Yes,Yes,No,Yes,Month-to-month,Yes,Electronic check,109.39,760.74,Yes
+SYN-000187,Male,0,Yes,No,3,Yes,Yes,Fiber optic,No,No,Yes,No,Yes,No,One year,Yes,Electronic check,93.38,291.02,Yes
+SYN-000188,Male,1,No,No,2,Yes,Yes,Fiber optic,No,Yes,No,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,117.24,243.65,No
+SYN-000189,Female,0,Yes,No,0,Yes,Yes,DSL,No,Yes,No,No,No,No,Month-to-month,Yes,Electronic check,63.3, ,No
+SYN-000190,Male,0,No,No,11,Yes,Yes,Fiber optic,Yes,Yes,Yes,Yes,No,No,Month-to-month,No,Mailed check,87.34,961.35,Yes
+SYN-000191,Female,0,Yes,No,5,No,No phone service,DSL,Yes,Yes,No,Yes,No,No,Month-to-month,No,Electronic check,59.47,242.23,Yes
+SYN-000192,Male,1,Yes,No,4,Yes,Yes,DSL,Yes,Yes,Yes,No,No,No,Month-to-month,No,Electronic check,59.94,253.57,Yes
+SYN-000193,Male,0,No,Yes,9,Yes,No,DSL,Yes,No,No,No,Yes,No,Month-to-month,No,Mailed check,54.17,492.37,No
+SYN-000194,Female,0,No,No,0,Yes,Yes,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Mailed check,89.2, ,Yes
+SYN-000195,Male,1,No,No,7,Yes,Yes,Fiber optic,Yes,Yes,No,No,Yes,Yes,Month-to-month,Yes,Mailed check,116.91,818.59,Yes
+SYN-000196,Male,0,Yes,No,6,Yes,Yes,Fiber optic,No,No,No,No,Yes,Yes,Month-to-month,No,Electronic check,73.78,414.4,Yes
+SYN-000197,Female,0,Yes,Yes,7,Yes,Yes,Fiber optic,Yes,Yes,No,No,Yes,No,Month-to-month,No,Credit card (automatic),99.48,694.84,No
+SYN-000198,Female,0,No,No,1,Yes,No,Fiber optic,Yes,No,No,No,No,No,Month-to-month,Yes,Electronic check,99.63,89.8,No
+SYN-000199,Male,0,Yes,No,12,Yes,No,Fiber optic,No,No,No,No,Yes,No,Month-to-month,Yes,Electronic check,74.4,905.84,Yes
+SYN-000200,Male,0,No,No,3,Yes,No,Fiber optic,No,Yes,No,No,No,No,One year,Yes,Credit card (automatic),104.87,315.42,No
+SYN-000201,Female,0,No,No,8,Yes,Yes,Fiber optic,No,No,Yes,Yes,Yes,Yes,Month-to-month,Yes,Mailed check,118.75,912.2,Yes
+SYN-000202,Female,0,No,No,9,Yes,No,Fiber optic,No,No,No,No,No,Yes,Two year,Yes,Mailed check,74.61,622.42,No
+SYN-000203,Female,0,No,No,4,Yes,Yes,DSL,No,No,Yes,No,No,No,Month-to-month,Yes,Credit card (automatic),63.06,260.13,Yes
+SYN-000204,Male,1,No,No,1,Yes,No,DSL,No,No,No,Yes,Yes,Yes,Month-to-month,No,Electronic check,82.92,124.41,Yes
+SYN-000205,Male,0,Yes,No,3,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Bank transfer (automatic),24.57,76.09,No
+SYN-000206,Male,0,Yes,No,10,Yes,Yes,Fiber optic,No,Yes,Yes,No,No,No,Month-to-month,Yes,Mailed check,77.72,801.6,Yes
+SYN-000207,Male,0,No,Yes,11,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Electronic check,20.54,256.32,Yes
+SYN-000208,Female,0,No,No,12,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Electronic check,19.88,246.56,Yes
+SYN-000209,Male,0,Yes,No,2,Yes,Yes,DSL,Yes,Yes,Yes,Yes,No,No,Month-to-month,Yes,Electronic check,56.09,87.75,Yes
+SYN-000210,Female,0,Yes,Yes,7,Yes,No,Fiber optic,No,No,No,Yes,Yes,No,One year,No,Credit card (automatic),104.71,738.83,No
+SYN-000211,Female,1,No,No,1,Yes,No,Fiber optic,No,Yes,Yes,No,Yes,Yes,Month-to-month,Yes,Electronic check,118.75,154.96,Yes
+SYN-000212,Female,0,No,No,9,Yes,No,Fiber optic,Yes,Yes,Yes,Yes,Yes,No,Month-to-month,Yes,Electronic check,112.73,1030.47,Yes
+SYN-000213,Male,0,No,No,5,Yes,Yes,DSL,No,Yes,No,Yes,No,No,Month-to-month,Yes,Mailed check,75.13,398.1,No
+SYN-000214,Female,1,Yes,No,9,Yes,No,DSL,No,No,Yes,No,Yes,Yes,Month-to-month,No,Bank transfer (automatic),75.85,668.77,Yes
+SYN-000215,Female,0,Yes,No,8,Yes,Yes,Fiber optic,No,Yes,Yes,Yes,No,No,Month-to-month,No,Electronic check,108.88,864.97,No
+SYN-000216,Female,0,No,No,12,Yes,No,Fiber optic,Yes,Yes,Yes,No,Yes,No,Month-to-month,Yes,Bank transfer (automatic),101.74,1217.32,No
+SYN-000217,Male,0,Yes,No,6,Yes,Yes,Fiber optic,No,Yes,Yes,No,No,Yes,Month-to-month,Yes,Mailed check,96.52,577.58,No
+SYN-000218,Male,0,No,No,4,Yes,Yes,Fiber optic,Yes,No,Yes,Yes,Yes,No,Month-to-month,Yes,Bank transfer (automatic),100.36,436.48,No
+SYN-000219,Female,0,No,No,6,Yes,No,Fiber optic,No,No,Yes,No,No,No,Month-to-month,No,Electronic check,96.2,506.78,Yes
+SYN-000220,Male,1,Yes,No,2,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Electronic check,18.25,37.42,No
+SYN-000221,Male,0,Yes,Yes,1,Yes,No,Fiber optic,No,No,No,No,Yes,Yes,Month-to-month,Yes,Mailed check,93.32,90.94,No
+SYN-000222,Male,0,Yes,Yes,6,Yes,No,Fiber optic,Yes,Yes,Yes,Yes,Yes,No,Month-to-month,No,Electronic check,118.75,671.35,Yes
+SYN-000223,Female,0,No,No,10,Yes,Yes,Fiber optic,No,No,Yes,No,No,No,Month-to-month,Yes,Mailed check,91.05,930.65,No
+SYN-000224,Female,1,No,No,6,Yes,No,Fiber optic,Yes,Yes,No,Yes,No,No,Two year,Yes,Electronic check,81.0,464.26,No
+SYN-000225,Male,0,Yes,No,10,Yes,No,Fiber optic,Yes,No,No,No,No,Yes,Month-to-month,Yes,Bank transfer (automatic),91.36,902.89,No
+SYN-000226,Female,0,No,Yes,2,Yes,No,Fiber optic,Yes,No,Yes,Yes,Yes,Yes,Month-to-month,Yes,Credit card (automatic),98.22,251.9,No
+SYN-000227,Male,0,Yes,No,5,Yes,No,Fiber optic,Yes,No,No,Yes,No,No,One year,Yes,Bank transfer (automatic),110.03,580.45,Yes
+SYN-000228,Female,0,Yes,No,7,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Credit card (automatic),24.6,189.43,No
+SYN-000229,Female,0,No,Yes,4,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Credit card (automatic),25.26,112.46,No
+SYN-000230,Male,0,Yes,No,0,No,No phone service,Fiber optic,No,No,No,No,No,Yes,Month-to-month,No,Electronic check,104.32, ,No
+SYN-000231,Male,0,Yes,No,0,Yes,No,Fiber optic,Yes,No,No,Yes,No,No,Two year,Yes,Electronic check,81.24, ,Yes
+SYN-000232,Male,0,No,Yes,12,Yes,Yes,Fiber optic,No,No,Yes,Yes,No,No,Two year,No,Credit card (automatic),88.01,1080.19,No
+SYN-000233,Female,0,Yes,No,7,Yes,Yes,Fiber optic,No,No,Yes,No,No,No,Month-to-month,Yes,Credit card (automatic),107.6,730.71,Yes
+SYN-000234,Female,0,No,Yes,3,Yes,No,Fiber optic,Yes,Yes,Yes,No,Yes,No,Month-to-month,No,Credit card (automatic),108.09,282.27,Yes
+SYN-000235,Female,0,Yes,No,3,Yes,Yes,Fiber optic,No,No,Yes,No,No,No,Month-to-month,Yes,Bank transfer (automatic),98.28,311.85,No
+SYN-000236,Female,0,Yes,No,0,Yes,Yes,Fiber optic,Yes,Yes,Yes,No,Yes,No,Month-to-month,No,Electronic check,117.14, ,Yes
+SYN-000237,Male,0,Yes,No,12,Yes,Yes,Fiber optic,Yes,No,No,No,Yes,Yes,Month-to-month,Yes,Credit card (automatic),118.75,1382.13,No
+SYN-000238,Female,0,Yes,Yes,1,Yes,No,Fiber optic,No,Yes,Yes,Yes,Yes,No,Month-to-month,Yes,Credit card (automatic),88.39,101.25,No
+SYN-000239,Male,0,Yes,No,9,Yes,Yes,DSL,No,Yes,No,No,No,Yes,Month-to-month,Yes,Mailed check,50.52,446.61,Yes
+SYN-000240,Male,0,Yes,No,3,Yes,No,Fiber optic,No,No,Yes,No,No,No,Month-to-month,Yes,Credit card (automatic),101.26,319.7,No
+SYN-000241,Female,0,No,Yes,4,No,No phone service,Fiber optic,No,No,Yes,No,Yes,Yes,Month-to-month,No,Mailed check,83.71,348.09,Yes
+SYN-000242,Female,0,Yes,Yes,3,Yes,No,DSL,No,No,No,No,No,No,Month-to-month,No,Credit card (automatic),51.24,135.47,No
+SYN-000243,Male,1,Yes,Yes,10,Yes,Yes,Fiber optic,Yes,No,No,Yes,No,No,One year,No,Electronic check,89.4,912.99,Yes
+SYN-000244,Female,0,Yes,No,0,No,No phone service,Fiber optic,No,Yes,Yes,No,No,Yes,Month-to-month,Yes,Credit card (automatic),118.27, ,Yes
+SYN-000245,Female,0,Yes,No,4,Yes,No,DSL,Yes,Yes,No,No,No,No,Month-to-month,No,Electronic check,67.21,255.85,No
+SYN-000246,Female,0,Yes,No,3,Yes,No,Fiber optic,Yes,Yes,Yes,No,Yes,Yes,One year,No,Electronic check,107.62,306.89,Yes
+SYN-000247,Female,0,No,No,3,Yes,No,Fiber optic,Yes,No,Yes,No,No,No,Month-to-month,Yes,Electronic check,84.42,287.19,No
+SYN-000248,Male,0,Yes,No,2,Yes,Yes,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,106.14,203.86,No
+SYN-000249,Male,0,No,No,11,Yes,No,Fiber optic,No,No,Yes,Yes,No,Yes,One year,No,Electronic check,103.25,1176.92,No
+SYN-000250,Male,0,No,No,4,Yes,Yes,Fiber optic,Yes,No,No,No,No,No,Month-to-month,Yes,Credit card (automatic),71.45,339.3,Yes
+SYN-000251,Female,0,Yes,No,5,Yes,No,Fiber optic,No,Yes,Yes,Yes,No,No,Month-to-month,Yes,Mailed check,82.48,390.24,No
+SYN-000252,Female,0,Yes,Yes,5,Yes,No,Fiber optic,No,No,No,No,Yes,Yes,One year,No,Credit card (automatic),104.82,436.47,Yes
+SYN-000253,Male,0,Yes,No,12,No,No phone service,DSL,No,No,No,Yes,No,No,Month-to-month,Yes,Electronic check,59.51,745.46,No
+SYN-000254,Male,0,No,No,4,Yes,No,Fiber optic,Yes,No,Yes,No,Yes,No,Month-to-month,Yes,Electronic check,104.21,406.58,Yes
+SYN-000255,Male,0,Yes,No,4,Yes,Yes,Fiber optic,No,Yes,Yes,No,Yes,No,One year,Yes,Bank transfer (automatic),107.32,403.29,No
+SYN-000256,Female,0,No,No,4,Yes,No,Fiber optic,Yes,Yes,Yes,No,No,Yes,Month-to-month,No,Bank transfer (automatic),95.72,365.22,Yes
+SYN-000257,Female,0,No,Yes,4,No,No phone service,Fiber optic,No,Yes,No,Yes,No,No,One year,No,Mailed check,98.47,381.44,Yes
+SYN-000258,Male,1,No,No,1,No,No phone service,Fiber optic,Yes,Yes,No,No,No,Yes,Month-to-month,No,Bank transfer (automatic),93.88,132.8,No
+SYN-000259,Male,0,No,No,7,Yes,Yes,Fiber optic,Yes,No,No,No,No,No,Month-to-month,No,Bank transfer (automatic),111.67,786.49,Yes
+SYN-000260,Female,0,No,No,0,Yes,No,DSL,No,Yes,Yes,No,No,No,Month-to-month,Yes,Mailed check,53.43, ,No
+SYN-000261,Male,0,Yes,No,2,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Credit card (automatic),25.49,65.81,No
+SYN-000262,Female,0,Yes,Yes,2,Yes,No,Fiber optic,Yes,No,No,No,No,Yes,Two year,Yes,Bank transfer (automatic),100.16,191.04,No
+SYN-000263,Male,0,Yes,Yes,3,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Mailed check,22.16,54.77,No
+SYN-000264,Male,0,No,Yes,9,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Electronic check,28.57,273.98,No
+SYN-000265,Female,1,No,Yes,7,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Electronic check,21.58,175.67,No
+SYN-000266,Male,0,No,Yes,12,Yes,No,Fiber optic,No,Yes,Yes,No,Yes,No,Two year,Yes,Electronic check,99.34,1221.98,No
+SYN-000267,Male,0,Yes,No,4,Yes,No,Fiber optic,No,Yes,No,Yes,Yes,No,Month-to-month,No,Bank transfer (automatic),114.07,448.43,Yes
+SYN-000268,Male,0,No,Yes,12,Yes,Yes,DSL,No,Yes,No,Yes,No,No,Month-to-month,No,Bank transfer (automatic),63.61,768.58,No
+SYN-000269,Male,0,No,Yes,0,Yes,Yes,Fiber optic,Yes,No,No,Yes,No,Yes,Month-to-month,Yes,Electronic check,102.12, ,Yes
+SYN-000270,Male,0,No,No,6,Yes,Yes,Fiber optic,No,Yes,Yes,No,No,Yes,Month-to-month,Yes,Mailed check,85.89,503.82,Yes
+SYN-000271,Male,0,No,No,10,Yes,Yes,Fiber optic,Yes,Yes,No,No,No,No,Two year,Yes,Electronic check,101.74,983.35,No
+SYN-000272,Male,0,Yes,No,6,Yes,No,Fiber optic,Yes,Yes,No,Yes,No,No,Two year,Yes,Electronic check,96.29,553.55,No
+SYN-000273,Male,0,Yes,No,12,Yes,No,DSL,No,No,No,No,Yes,Yes,Month-to-month,Yes,Credit card (automatic),76.77,914.01,Yes
+SYN-000274,Female,0,No,No,4,Yes,No,Fiber optic,No,No,No,No,No,Yes,Month-to-month,Yes,Electronic check,90.09,380.23,Yes
+SYN-000275,Female,0,Yes,No,0,No,No phone service,Fiber optic,No,No,No,No,No,Yes,Month-to-month,Yes,Electronic check,76.27, ,Yes
+SYN-000276,Male,1,Yes,No,10,Yes,Yes,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,104.13,1000.62,Yes
+SYN-000277,Male,0,Yes,No,0,No,No phone service,DSL,No,No,Yes,No,Yes,Yes,Month-to-month,No,Electronic check,74.57, ,Yes
+SYN-000278,Female,0,Yes,No,9,No,No phone service,DSL,No,No,Yes,Yes,Yes,Yes,Month-to-month,No,Bank transfer (automatic),84.51,749.85,No
+SYN-000279,Female,0,No,No,9,Yes,No,Fiber optic,No,Yes,No,No,No,No,Month-to-month,Yes,Credit card (automatic),100.51,928.43,Yes
+SYN-000280,Female,1,No,No,10,Yes,Yes,Fiber optic,No,No,Yes,No,Yes,Yes,One year,Yes,Mailed check,90.32,887.36,Yes
+SYN-000281,Male,0,Yes,Yes,6,Yes,No,DSL,No,No,Yes,No,Yes,Yes,Month-to-month,Yes,Mailed check,67.38,391.39,No
+SYN-000282,Male,1,Yes,No,11,Yes,Yes,DSL,No,Yes,No,No,No,No,Month-to-month,Yes,Electronic check,76.48,798.92,Yes
+SYN-000283,Male,0,Yes,Yes,2,Yes,Yes,Fiber optic,No,No,Yes,No,Yes,No,Month-to-month,Yes,Mailed check,81.58,177.66,Yes
+SYN-000284,Male,0,No,Yes,5,Yes,Yes,DSL,No,No,No,No,Yes,Yes,Month-to-month,Yes,Electronic check,77.28,381.56,No
+SYN-000285,Female,1,No,Yes,1,No,No phone service,Fiber optic,Yes,No,No,No,No,No,Month-to-month,Yes,Electronic check,100.07,80.45,Yes
+SYN-000286,Male,0,No,No,9,Yes,No,Fiber optic,No,Yes,Yes,No,No,Yes,Month-to-month,No,Credit card (automatic),86.34,769.27,Yes
+SYN-000287,Male,0,Yes,No,9,Yes,No,DSL,No,No,No,No,No,Yes,Month-to-month,Yes,Electronic check,75.75,715.56,Yes
+SYN-000288,Male,0,Yes,No,10,Yes,Yes,Fiber optic,No,No,Yes,No,Yes,No,Month-to-month,No,Electronic check,116.08,1130.65,Yes
+SYN-000289,Female,0,Yes,No,9,Yes,Yes,DSL,No,Yes,No,No,Yes,No,One year,Yes,Electronic check,63.7,548.05,Yes
+SYN-000290,Male,0,No,Yes,4,Yes,No,Fiber optic,No,Yes,No,Yes,Yes,No,One year,Yes,Bank transfer (automatic),91.99,405.53,Yes
+SYN-000291,Female,0,Yes,No,0,Yes,Yes,Fiber optic,No,Yes,Yes,No,No,No,Month-to-month,No,Electronic check,84.28, ,Yes
+SYN-000292,Male,0,No,No,12,Yes,No,Fiber optic,No,Yes,Yes,No,Yes,Yes,Month-to-month,Yes,Electronic check,83.75,1025.09,No
+SYN-000293,Female,0,No,Yes,6,Yes,No,Fiber optic,Yes,No,Yes,No,No,No,Month-to-month,No,Bank transfer (automatic),87.42,536.57,Yes
+SYN-000294,Male,0,Yes,No,1,Yes,No,DSL,No,No,Yes,No,No,No,Month-to-month,No,Electronic check,65.84,64.78,Yes
+SYN-000295,Female,0,Yes,No,12,Yes,No,Fiber optic,No,Yes,Yes,No,No,Yes,Two year,Yes,Credit card (automatic),91.53,1087.91,No
+SYN-000296,Female,0,Yes,Yes,12,Yes,No,Fiber optic,No,Yes,No,No,Yes,No,Two year,Yes,Electronic check,95.48,1170.71,No
+SYN-000297,Female,0,Yes,No,5,No,No phone service,Fiber optic,Yes,No,Yes,No,Yes,Yes,Month-to-month,Yes,Bank transfer (automatic),114.02,604.97,Yes
+SYN-000298,Female,0,Yes,Yes,10,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Credit card (automatic),26.15,294.03,No
+SYN-000299,Female,0,No,No,0,Yes,No,DSL,No,No,Yes,No,Yes,No,Month-to-month,Yes,Mailed check,87.9, ,Yes
+SYN-000300,Female,0,Yes,No,1,Yes,Yes,Fiber optic,No,Yes,No,No,No,Yes,Month-to-month,Yes,Mailed check,100.77,139.92,No
+SYN-000301,Female,0,Yes,No,3,Yes,No,Fiber optic,No,Yes,Yes,No,Yes,No,Two year,No,Electronic check,104.59,303.03,Yes
+SYN-000302,Male,0,No,No,8,Yes,Yes,Fiber optic,No,No,Yes,Yes,No,Yes,Month-to-month,No,Bank transfer (automatic),103.64,806.47,Yes
+SYN-000303,Female,1,No,Yes,1,Yes,No,Fiber optic,No,Yes,No,No,No,No,Month-to-month,Yes,Credit card (automatic),104.69,99.61,Yes
+SYN-000304,Female,0,Yes,No,0,No,No phone service,Fiber optic,No,No,Yes,Yes,Yes,Yes,Month-to-month,Yes,Bank transfer (automatic),111.71, ,Yes
+SYN-000305,Female,0,No,No,8,Yes,No,DSL,No,Yes,No,No,Yes,Yes,Month-to-month,No,Credit card (automatic),82.28,674.45,No
+SYN-000306,Male,0,No,No,10,Yes,No,Fiber optic,No,No,Yes,No,Yes,Yes,Month-to-month,No,Mailed check,85.42,846.54,No
+SYN-000307,Male,0,No,Yes,9,Yes,No,Fiber optic,No,No,No,No,Yes,No,One year,Yes,Mailed check,100.22,927.11,No
+SYN-000308,Female,0,No,No,10,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Electronic check,24.81,252.3,Yes
+SYN-000309,Male,0,Yes,No,10,Yes,Yes,Fiber optic,No,Yes,No,No,No,No,Month-to-month,No,Bank transfer (automatic),82.7,809.81,No
+SYN-000310,Male,1,No,Yes,7,Yes,Yes,Fiber optic,No,No,Yes,Yes,No,Yes,Month-to-month,No,Credit card (automatic),114.18,778.02,Yes
+SYN-000311,Male,0,Yes,Yes,6,Yes,No,Fiber optic,No,No,Yes,No,No,No,Month-to-month,No,Mailed check,84.92,521.83,No
+SYN-000312,Male,0,No,No,11,Yes,No,Fiber optic,No,Yes,Yes,No,Yes,Yes,Month-to-month,Yes,Electronic check,93.9,1030.42,No
+SYN-000313,Male,1,No,No,4,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Mailed check,19.81,37.97,No
+SYN-000314,Male,0,Yes,Yes,1,Yes,No,DSL,No,No,Yes,Yes,Yes,No,Month-to-month,Yes,Bank transfer (automatic),78.66,104.07,No
+SYN-000315,Male,0,Yes,No,9,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Credit card (automatic),25.33,213.56,No
+SYN-000316,Male,1,No,No,3,Yes,No,Fiber optic,No,No,No,Yes,No,No,One year,No,Electronic check,84.78,302.1,No
+SYN-000317,Male,1,No,No,12,Yes,Yes,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,107.0,1241.91,Yes
+SYN-000318,Female,0,Yes,No,5,Yes,Yes,Fiber optic,No,Yes,Yes,Yes,Yes,No,Two year,No,Electronic check,100.82,498.68,No
+SYN-000319,Male,0,No,No,11,Yes,No,Fiber optic,No,No,Yes,Yes,Yes,No,Month-to-month,No,Electronic check,109.77,1186.47,Yes
+SYN-000320,Female,0,No,No,0,No,No phone service,Fiber optic,Yes,No,No,No,Yes,No,Month-to-month,No,Credit card (automatic),111.39, ,Yes
+SYN-000321,Female,0,No,No,8,Yes,Yes,Fiber optic,No,Yes,Yes,Yes,No,No,Month-to-month,No,Electronic check,105.24,827.32,No
+SYN-000322,Male,0,Yes,No,5,Yes,No,DSL,No,No,Yes,Yes,Yes,No,Month-to-month,No,Mailed check,63.1,368.62,Yes
+SYN-000323,Male,0,Yes,No,6,Yes,No,Fiber optic,No,Yes,No,No,Yes,No,Month-to-month,Yes,Electronic check,109.07,658.72,Yes
+SYN-000324,Female,0,No,No,3,Yes,No,Fiber optic,Yes,Yes,No,No,Yes,No,Month-to-month,Yes,Electronic check,97.21,267.88,Yes
+SYN-000325,Female,0,Yes,No,12,Yes,No,Fiber optic,Yes,No,No,No,No,Yes,Month-to-month,Yes,Credit card (automatic),114.4,1317.94,Yes
+SYN-000326,Female,0,No,Yes,5,Yes,No,Fiber optic,No,Yes,Yes,Yes,No,No,Month-to-month,No,Electronic check,100.35,450.11,No
+SYN-000327,Female,0,Yes,No,11,Yes,Yes,Fiber optic,No,No,No,No,No,No,Month-to-month,No,Electronic check,72.03,776.24,Yes
+SYN-000328,Female,0,No,No,5,Yes,No,DSL,No,Yes,Yes,No,Yes,No,Two year,Yes,Electronic check,77.14,366.69,No
+SYN-000329,Female,1,Yes,No,0,Yes,No,Fiber optic,Yes,No,Yes,No,Yes,No,Month-to-month,Yes,Credit card (automatic),104.68, ,No
+SYN-000330,Male,0,Yes,No,11,No,No phone service,DSL,No,Yes,No,No,No,No,Two year,Yes,Credit card (automatic),55.26,539.69,No
+SYN-000331,Female,0,No,No,2,Yes,Yes,Fiber optic,No,No,Yes,No,Yes,No,One year,Yes,Electronic check,101.28,199.81,Yes
+SYN-000332,Male,0,No,No,3,Yes,Yes,Fiber optic,No,No,No,No,Yes,No,One year,No,Mailed check,86.43,290.12,No
+SYN-000333,Female,0,No,No,11,Yes,No,Fiber optic,No,No,Yes,No,No,No,Month-to-month,Yes,Electronic check,95.3,1096.99,Yes
+SYN-000334,Female,0,No,Yes,11,Yes,No,Fiber optic,No,No,Yes,No,Yes,Yes,Month-to-month,No,Mailed check,80.88,832.85,Yes
+SYN-000335,Male,0,No,Yes,11,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Electronic check,23.94,239.3,Yes
+SYN-000336,Female,0,No,Yes,5,Yes,Yes,Fiber optic,No,No,Yes,No,No,Yes,Month-to-month,Yes,Bank transfer (automatic),91.64,432.57,Yes
+SYN-000337,Male,0,Yes,Yes,9,Yes,Yes,Fiber optic,No,No,No,No,No,Yes,Month-to-month,Yes,Credit card (automatic),80.14,725.63,Yes
+SYN-000338,Female,1,No,No,4,Yes,No,Fiber optic,No,No,Yes,No,Yes,No,Month-to-month,No,Electronic check,95.79,346.57,Yes
+SYN-000339,Male,0,No,No,9,Yes,No,Fiber optic,Yes,No,No,No,Yes,No,Month-to-month,No,Electronic check,96.68,920.59,Yes
+SYN-000340,Female,0,Yes,No,6,Yes,No,DSL,Yes,No,Yes,No,No,No,Month-to-month,Yes,Electronic check,60.78,365.99,No
+SYN-000341,Male,0,Yes,Yes,0,Yes,No,Fiber optic,Yes,Yes,Yes,No,Yes,Yes,Month-to-month,Yes,Electronic check,111.04, ,Yes
+SYN-000342,Female,0,No,No,5,Yes,No,Fiber optic,No,No,No,No,Yes,No,Month-to-month,No,Electronic check,76.06,428.08,Yes
+SYN-000343,Female,0,No,Yes,6,Yes,No,Fiber optic,No,No,Yes,No,No,Yes,One year,No,Electronic check,109.45,656.22,Yes
+SYN-000344,Female,0,No,No,3,Yes,No,DSL,Yes,Yes,Yes,Yes,No,No,Month-to-month,No,Credit card (automatic),64.1,204.31,No
+SYN-000345,Female,0,No,Yes,4,Yes,No,DSL,Yes,Yes,No,No,No,No,Month-to-month,No,Electronic check,59.14,214.04,No
+SYN-000346,Female,1,No,No,6,No,No phone service,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Credit card (automatic),25.18,109.96,No
+SYN-000347,Female,0,Yes,No,0,Yes,Yes,Fiber optic,No,Yes,No,No,Yes,Yes,Month-to-month,Yes,Electronic check,105.93, ,Yes
+SYN-000348,Male,0,Yes,No,1,Yes,Yes,Fiber optic,No,Yes,No,No,No,Yes,Month-to-month,No,Mailed check,104.63,170.24,No
+SYN-000349,Female,0,Yes,No,9,No,No phone service,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Electronic check,23.14,227.25,Yes
+SYN-000350,Male,1,Yes,No,4,No,No phone service,Fiber optic,No,Yes,No,No,Yes,Yes,Month-to-month,No,Credit card (automatic),94.83,387.56,No
+SYN-000351,Female,0,No,Yes,7,Yes,No,DSL,No,No,No,No,No,Yes,Month-to-month,No,Electronic check,53.8,347.31,Yes
+SYN-000352,Male,0,No,No,7,Yes,Yes,DSL,No,No,Yes,Yes,Yes,Yes,Month-to-month,No,Electronic check,72.81,537.01,Yes
+SYN-000353,Female,1,Yes,No,7,Yes,No,Fiber optic,No,No,Yes,No,No,Yes,Month-to-month,Yes,Bank transfer (automatic),91.97,603.06,Yes
+SYN-000354,Female,1,Yes,No,5,Yes,No,DSL,No,No,No,No,No,Yes,Month-to-month,Yes,Bank transfer (automatic),74.11,323.54,Yes
+SYN-000355,Male,0,No,No,6,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Mailed check,20.66,107.19,No
+SYN-000356,Female,0,Yes,No,10,Yes,No,DSL,Yes,Yes,No,No,No,Yes,Month-to-month,No,Electronic check,76.1,819.63,Yes
+SYN-000357,Female,0,No,Yes,12,Yes,Yes,DSL,No,No,Yes,Yes,No,No,Month-to-month,No,Electronic check,57.6,748.14,Yes
+SYN-000358,Female,1,Yes,Yes,3,Yes,No,DSL,No,Yes,Yes,No,Yes,Yes,Month-to-month,Yes,Bank transfer (automatic),73.42,206.72,Yes
+SYN-000359,Male,0,No,Yes,8,Yes,Yes,DSL,No,Yes,No,No,Yes,Yes,Month-to-month,Yes,Mailed check,76.71,593.45,No
+SYN-000360,Female,0,Yes,Yes,12,Yes,No,DSL,No,No,No,No,No,Yes,Month-to-month,No,Mailed check,58.8,656.39,No
+SYN-000361,Female,0,No,No,0,Yes,Yes,Fiber optic,No,No,Yes,Yes,Yes,No,Two year,No,Electronic check,89.55, ,No
+SYN-000362,Male,0,Yes,No,10,Yes,Yes,Fiber optic,No,Yes,No,No,Yes,Yes,Month-to-month,No,Electronic check,107.58,1080.66,No
+SYN-000363,Male,0,No,No,6,Yes,No,Fiber optic,No,No,No,No,Yes,No,Month-to-month,No,Credit card (automatic),97.71,609.95,No
+SYN-000364,Male,0,Yes,No,12,Yes,No,Fiber optic,No,No,No,No,No,Yes,Month-to-month,Yes,Bank transfer (automatic),76.32,943.16,Yes
+SYN-000365,Female,0,Yes,No,7,Yes,No,Fiber optic,No,Yes,Yes,No,Yes,No,One year,Yes,Electronic check,85.67,593.77,Yes
+SYN-000366,Male,1,No,No,10,Yes,No,Fiber optic,No,Yes,No,Yes,No,Yes,One year,No,Credit card (automatic),104.6,1062.68,Yes
+SYN-000367,Female,1,Yes,No,2,Yes,Yes,Fiber optic,No,Yes,No,No,Yes,Yes,Month-to-month,Yes,Mailed check,103.5,185.98,Yes
+SYN-000368,Female,0,Yes,Yes,1,Yes,No,DSL,No,No,No,No,Yes,No,Month-to-month,No,Electronic check,66.75,82.86,No
+SYN-000369,Male,0,Yes,No,12,Yes,Yes,Fiber optic,No,Yes,Yes,No,No,Yes,Month-to-month,No,Electronic check,91.54,1083.26,Yes
+SYN-000370,Female,0,Yes,No,6,No,No phone service,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Bank transfer (automatic),26.44,172.42,Yes
+SYN-000371,Female,0,Yes,No,7,Yes,Yes,Fiber optic,No,Yes,No,No,Yes,No,Month-to-month,Yes,Electronic check,114.36,811.88,Yes
+SYN-000372,Male,0,No,No,2,No,No phone service,DSL,No,No,Yes,No,Yes,Yes,Month-to-month,No,Mailed check,87.36,176.78,Yes
+SYN-000373,Male,1,Yes,No,2,Yes,Yes,Fiber optic,No,No,Yes,No,No,Yes,Two year,Yes,Bank transfer (automatic),83.75,191.34,Yes
+SYN-000374,Male,0,No,No,10,No,No phone service,Fiber optic,No,No,No,No,Yes,Yes,One year,Yes,Electronic check,101.53,968.19,Yes
+SYN-000375,Male,0,No,No,3,Yes,Yes,Fiber optic,No,Yes,No,Yes,Yes,Yes,Month-to-month,Yes,Credit card (automatic),98.22,262.71,No
+SYN-000376,Male,1,Yes,No,7,Yes,Yes,Fiber optic,Yes,No,Yes,No,Yes,No,Two year,Yes,Electronic check,84.62,584.24,Yes
+SYN-000377,Female,0,No,Yes,4,Yes,No,Fiber optic,No,No,Yes,No,Yes,No,Month-to-month,No,Electronic check,89.82,315.98,Yes
+SYN-000378,Male,0,No,No,3,Yes,Yes,Fiber optic,No,Yes,Yes,No,Yes,No,Month-to-month,No,Mailed check,116.53,337.38,Yes
+SYN-000379,Male,0,No,No,2,Yes,No,Fiber optic,No,Yes,No,Yes,No,Yes,One year,Yes,Mailed check,94.05,176.86,No
+SYN-000380,Female,0,Yes,No,12,Yes,No,DSL,No,Yes,No,No,Yes,No,Month-to-month,No,Electronic check,71.37,895.73,Yes
+SYN-000381,Female,0,Yes,No,12,Yes,No,DSL,No,Yes,Yes,No,Yes,No,Month-to-month,Yes,Mailed check,60.78,733.64,Yes
+SYN-000382,Female,0,Yes,No,1,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Credit card (automatic),27.16,58.04,No
+SYN-000383,Female,1,No,No,4,Yes,Yes,Fiber optic,No,Yes,Yes,No,No,No,Month-to-month,No,Bank transfer (automatic),76.72,315.93,No
+SYN-000384,Male,0,No,No,7,Yes,Yes,Fiber optic,No,Yes,No,Yes,Yes,No,Month-to-month,Yes,Bank transfer (automatic),105.21,720.4,Yes
+SYN-000385,Male,0,No,No,4,Yes,No,Fiber optic,No,No,No,Yes,Yes,No,Month-to-month,Yes,Electronic check,79.92,323.69,Yes
+SYN-000386,Female,0,Yes,No,9,Yes,No,DSL,Yes,Yes,No,No,Yes,Yes,Month-to-month,Yes,Electronic check,80.36,745.12,Yes
+SYN-000387,Female,0,No,Yes,3,Yes,No,Fiber optic,No,Yes,Yes,No,No,Yes,Month-to-month,Yes,Mailed check,91.8,311.2,No
+SYN-000388,Female,0,Yes,Yes,0,Yes,Yes,DSL,No,No,Yes,No,Yes,No,Month-to-month,No,Electronic check,71.62, ,Yes
+SYN-000389,Male,0,No,No,4,Yes,No,Fiber optic,No,Yes,Yes,Yes,Yes,No,Month-to-month,Yes,Bank transfer (automatic),103.53,364.69,No
+SYN-000390,Female,0,Yes,No,7,Yes,Yes,Fiber optic,No,Yes,No,No,No,Yes,Month-to-month,Yes,Electronic check,74.29,468.5,No
+SYN-000391,Female,0,No,Yes,2,Yes,Yes,DSL,No,Yes,No,No,Yes,Yes,Month-to-month,Yes,Electronic check,69.09,128.39,No
+SYN-000392,Male,1,No,No,10,Yes,Yes,DSL,No,Yes,No,No,Yes,No,Month-to-month,No,Electronic check,79.31,722.96,Yes
+SYN-000393,Female,0,Yes,No,0,Yes,No,Fiber optic,Yes,No,Yes,No,Yes,Yes,Month-to-month,Yes,Electronic check,89.97, ,No
+SYN-000394,Female,0,Yes,Yes,0,Yes,Yes,DSL,No,Yes,No,No,No,Yes,Month-to-month,No,Electronic check,76.04, ,No
+SYN-000395,Male,0,No,No,6,Yes,No,DSL,No,Yes,Yes,No,No,No,One year,No,Mailed check,57.48,325.81,No
+SYN-000396,Male,1,Yes,Yes,6,Yes,No,Fiber optic,No,No,No,Yes,No,Yes,Month-to-month,Yes,Mailed check,90.3,508.51,Yes
+SYN-000397,Female,0,No,No,3,Yes,No,Fiber optic,Yes,No,No,No,No,Yes,Month-to-month,Yes,Electronic check,105.53,347.43,No
+SYN-000398,Male,0,No,Yes,3,Yes,No,Fiber optic,No,Yes,No,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,95.65,253.54,No
+SYN-000399,Male,0,No,Yes,0,Yes,No,DSL,No,Yes,No,No,No,No,Month-to-month,Yes,Bank transfer (automatic),61.05, ,No
+SYN-000400,Male,0,Yes,Yes,8,Yes,Yes,Fiber optic,No,No,Yes,Yes,No,Yes,Month-to-month,No,Electronic check,105.59,821.74,Yes
+SYN-000401,Male,0,Yes,No,4,No,No phone service,DSL,Yes,No,No,No,No,No,Month-to-month,No,Mailed check,61.43,249.14,No
+SYN-000402,Female,0,Yes,Yes,1,Yes,No,DSL,No,No,Yes,No,No,No,Month-to-month,Yes,Mailed check,59.0,77.62,Yes
+SYN-000403,Female,0,No,No,5,Yes,Yes,Fiber optic,No,Yes,No,No,Yes,No,Two year,Yes,Mailed check,116.44,617.98,No
+SYN-000404,Male,0,Yes,Yes,12,Yes,Yes,DSL,No,Yes,Yes,No,Yes,No,Month-to-month,Yes,Credit card (automatic),81.59,1010.43,No
+SYN-000405,Female,1,Yes,No,3,Yes,Yes,Fiber optic,No,Yes,Yes,No,Yes,No,One year,Yes,Mailed check,95.54,286.64,No
+SYN-000406,Female,0,Yes,No,11,No,No phone service,DSL,Yes,No,Yes,Yes,Yes,Yes,Month-to-month,No,Credit card (automatic),89.41,1014.13,Yes
+SYN-000407,Male,0,No,No,3,Yes,Yes,DSL,No,No,Yes,No,No,No,One year,No,Credit card (automatic),63.28,169.71,Yes
+SYN-000408,Female,0,Yes,Yes,2,Yes,Yes,Fiber optic,Yes,Yes,No,No,Yes,No,Two year,No,Electronic check,100.61,146.59,No
+SYN-000409,Male,0,No,No,3,Yes,No,Fiber optic,No,No,No,Yes,Yes,No,Month-to-month,Yes,Electronic check,99.91,279.6,No
+SYN-000410,Female,0,No,No,4,Yes,Yes,DSL,Yes,Yes,Yes,No,No,Yes,Month-to-month,Yes,Electronic check,71.13,260.33,Yes
+SYN-000411,Female,0,No,Yes,1,Yes,No,DSL,No,No,No,No,No,Yes,Month-to-month,Yes,Electronic check,59.83,40.87,Yes
+SYN-000412,Female,1,No,Yes,7,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Mailed check,26.72,158.26,No
+SYN-000413,Male,1,No,No,4,Yes,Yes,Fiber optic,No,No,Yes,No,Yes,Yes,Month-to-month,No,Electronic check,117.27,455.25,Yes
+SYN-000414,Female,1,No,No,9,Yes,No,Fiber optic,No,Yes,Yes,Yes,No,No,Month-to-month,No,Electronic check,118.59,1085.91,Yes
+SYN-000415,Male,1,Yes,Yes,6,Yes,No,DSL,No,No,No,Yes,No,Yes,Two year,Yes,Electronic check,65.12,442.18,No
+SYN-000416,Male,1,No,Yes,5,Yes,No,Fiber optic,Yes,Yes,No,No,No,No,Month-to-month,Yes,Mailed check,100.61,451.29,Yes
+SYN-000417,Male,0,No,No,6,Yes,Yes,DSL,Yes,No,Yes,No,No,No,Month-to-month,No,Mailed check,68.32,371.29,Yes
+SYN-000418,Female,0,No,No,2,Yes,Yes,DSL,No,Yes,No,No,No,No,Month-to-month,Yes,Credit card (automatic),52.8,81.86,No
+SYN-000419,Male,0,No,No,9,Yes,Yes,Fiber optic,No,No,Yes,No,Yes,Yes,Month-to-month,No,Electronic check,104.19,960.68,Yes
+SYN-000420,Female,0,No,No,1,Yes,No,Fiber optic,No,Yes,Yes,No,No,No,Month-to-month,Yes,Electronic check,108.3,102.15,Yes
+SYN-000421,Female,0,No,No,9,Yes,No,Fiber optic,No,Yes,No,No,No,Yes,Month-to-month,No,Credit card (automatic),78.91,688.47,Yes
+SYN-000422,Male,0,No,No,12,Yes,No,Fiber optic,No,Yes,No,No,Yes,Yes,Month-to-month,Yes,Mailed check,96.82,1183.34,Yes
+SYN-000423,Male,0,Yes,No,9,Yes,No,DSL,No,Yes,No,No,Yes,No,Month-to-month,No,Mailed check,51.84,495.25,Yes
+SYN-000424,Male,0,Yes,No,5,Yes,No,Fiber optic,No,Yes,Yes,No,Yes,Yes,Month-to-month,Yes,Mailed check,90.96,454.24,Yes
+SYN-000425,Female,0,Yes,Yes,4,Yes,No,Fiber optic,No,No,Yes,No,Yes,No,Month-to-month,Yes,Electronic check,84.18,312.23,Yes
+SYN-000426,Female,0,Yes,Yes,11,Yes,Yes,Fiber optic,No,Yes,Yes,No,No,Yes,Month-to-month,Yes,Credit card (automatic),111.25,1231.86,No
+SYN-000427,Male,0,Yes,No,3,Yes,No,Fiber optic,No,Yes,Yes,Yes,No,Yes,Month-to-month,Yes,Mailed check,117.14,344.42,Yes
+SYN-000428,Female,1,Yes,No,6,Yes,Yes,Fiber optic,No,Yes,Yes,No,Yes,No,Two year,No,Mailed check,101.85,603.87,No
+SYN-000429,Male,0,No,Yes,10,Yes,Yes,DSL,No,Yes,No,No,Yes,Yes,One year,No,Mailed check,82.17,806.33,Yes
+SYN-000430,Female,0,Yes,No,11,Yes,No,DSL,No,No,No,No,Yes,No,Month-to-month,No,Electronic check,50.86,587.21,Yes
+SYN-000431,Female,0,No,No,11,Yes,No,Fiber optic,No,No,No,No,Yes,No,Month-to-month,No,Electronic check,83.85,929.85,Yes
+SYN-000432,Female,0,No,No,1,Yes,Yes,DSL,Yes,Yes,Yes,No,No,No,Month-to-month,No,Bank transfer (automatic),56.93,88.0,No
+SYN-000433,Female,0,Yes,No,11,Yes,No,Fiber optic,No,No,Yes,Yes,No,No,Month-to-month,Yes,Mailed check,104.55,1190.14,No
+SYN-000434,Female,0,Yes,No,1,Yes,Yes,Fiber optic,No,No,No,No,No,No,Month-to-month,No,Electronic check,104.64,118.41,No
+SYN-000435,Male,0,Yes,No,7,Yes,Yes,DSL,No,No,Yes,No,Yes,Yes,Month-to-month,Yes,Electronic check,77.56,527.73,Yes
+SYN-000436,Male,0,No,Yes,12,Yes,Yes,DSL,No,Yes,No,Yes,No,Yes,Month-to-month,No,Credit card (automatic),86.36,1067.53,No
+SYN-000437,Male,1,Yes,No,8,Yes,No,Fiber optic,Yes,Yes,Yes,Yes,No,No,Month-to-month,Yes,Electronic check,117.39,953.09,No
+SYN-000438,Female,0,No,No,12,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Electronic check,28.18,416.26,Yes
+SYN-000439,Female,1,No,Yes,4,Yes,Yes,Fiber optic,Yes,No,No,No,No,No,Month-to-month,Yes,Mailed check,74.3,306.5,Yes
+SYN-000440,Female,0,No,Yes,4,Yes,Yes,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Bank transfer (automatic),104.05,437.13,Yes
+SYN-000441,Female,0,Yes,Yes,4,No,No phone service,DSL,Yes,No,No,No,No,No,Month-to-month,Yes,Mailed check,61.91,256.35,Yes
+SYN-000442,Male,0,Yes,No,4,Yes,Yes,Fiber optic,No,Yes,No,Yes,Yes,Yes,Month-to-month,Yes,Credit card (automatic),96.39,382.59,No
+SYN-000443,Female,0,Yes,No,8,Yes,No,DSL,No,No,Yes,No,Yes,No,Month-to-month,Yes,Electronic check,69.68,549.68,Yes
+SYN-000444,Male,0,Yes,Yes,5,No,No phone service,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Credit card (automatic),73.93,378.48,Yes
+SYN-000445,Male,0,Yes,No,9,Yes,No,Fiber optic,No,Yes,No,No,Yes,No,Month-to-month,Yes,Credit card (automatic),110.87,1013.47,No
+SYN-000446,Female,0,No,No,5,Yes,Yes,Fiber optic,No,No,No,No,Yes,Yes,Two year,Yes,Mailed check,96.25,515.88,No
+SYN-000447,Female,0,No,Yes,4,Yes,No,DSL,Yes,Yes,No,Yes,No,Yes,Month-to-month,Yes,Mailed check,71.68,295.99,No
+SYN-000448,Female,1,No,No,2,Yes,Yes,DSL,No,No,Yes,No,Yes,Yes,One year,No,Electronic check,62.56,111.23,Yes
+SYN-000449,Male,1,No,Yes,7,Yes,Yes,DSL,Yes,No,No,No,No,No,Month-to-month,Yes,Electronic check,55.79,380.72,Yes
+SYN-000450,Female,0,Yes,No,11,Yes,No,Fiber optic,Yes,No,No,Yes,No,No,Month-to-month,Yes,Electronic check,81.26,854.17,Yes
+SYN-000451,Male,0,No,No,11,Yes,No,Fiber optic,Yes,No,Yes,No,No,Yes,Month-to-month,Yes,Electronic check,90.21,1042.15,Yes
+SYN-000452,Female,0,No,Yes,3,Yes,No,DSL,No,Yes,Yes,Yes,No,No,Month-to-month,Yes,Credit card (automatic),84.33,236.75,Yes
+SYN-000453,Female,0,No,No,6,Yes,No,Fiber optic,Yes,Yes,Yes,Yes,No,No,Month-to-month,Yes,Electronic check,90.32,570.94,No
+SYN-000454,Male,0,No,No,9,Yes,No,Fiber optic,No,Yes,No,No,Yes,Yes,Two year,No,Mailed check,91.69,833.51,No
+SYN-000455,Male,1,Yes,No,7,Yes,No,DSL,No,Yes,Yes,No,Yes,No,Month-to-month,Yes,Electronic check,58.82,420.85,No
+SYN-000456,Male,1,Yes,No,0,Yes,Yes,DSL,No,Yes,Yes,No,No,No,Month-to-month,Yes,Electronic check,75.36, ,Yes
+SYN-000457,Female,0,Yes,No,7,Yes,Yes,Fiber optic,Yes,Yes,Yes,No,Yes,Yes,Month-to-month,Yes,Electronic check,92.65,624.92,No
+SYN-000458,Male,0,Yes,Yes,0,Yes,Yes,Fiber optic,Yes,Yes,No,No,Yes,No,Month-to-month,Yes,Electronic check,83.96, ,Yes
+SYN-000459,Female,0,No,No,1,Yes,Yes,Fiber optic,No,Yes,Yes,Yes,Yes,No,Month-to-month,Yes,Mailed check,87.25,139.1,No
+SYN-000460,Female,0,Yes,No,8,Yes,Yes,Fiber optic,Yes,Yes,Yes,No,No,Yes,Month-to-month,No,Credit card (automatic),99.6,800.22,No
+SYN-000461,Female,0,No,No,1,No,No phone service,Fiber optic,No,No,No,No,Yes,Yes,Month-to-month,Yes,Electronic check,106.36,140.12,Yes
+SYN-000462,Male,0,No,No,4,Yes,No,Fiber optic,No,Yes,Yes,No,No,No,Month-to-month,No,Credit card (automatic),83.7,376.35,Yes
+SYN-000463,Female,0,Yes,No,7,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Mailed check,31.06,205.09,No
+SYN-000464,Male,0,Yes,Yes,8,Yes,No,Fiber optic,Yes,No,No,No,No,No,Month-to-month,Yes,Mailed check,102.98,836.55,No
+SYN-000465,Female,1,No,No,5,Yes,Yes,Fiber optic,No,No,Yes,Yes,Yes,No,One year,Yes,Electronic check,76.98,386.25,Yes
+SYN-000466,Female,0,No,Yes,1,Yes,No,Fiber optic,Yes,Yes,No,Yes,Yes,No,Month-to-month,Yes,Electronic check,84.01,49.29,No
+SYN-000467,Female,1,Yes,No,10,Yes,Yes,Fiber optic,No,Yes,Yes,No,No,No,Month-to-month,Yes,Credit card (automatic),86.19,856.34,Yes
+SYN-000468,Female,0,Yes,No,12,No,No phone service,Fiber optic,Yes,No,Yes,No,No,No,Month-to-month,No,Mailed check,77.99,953.51,Yes
+SYN-000469,Male,0,No,No,11,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Electronic check,31.39,330.32,No
+SYN-000470,Female,0,Yes,No,9,Yes,Yes,Fiber optic,No,Yes,Yes,Yes,Yes,No,Month-to-month,Yes,Bank transfer (automatic),85.46,759.39,No
+SYN-000471,Male,0,No,No,5,Yes,Yes,Fiber optic,Yes,Yes,Yes,No,No,Yes,Month-to-month,Yes,Electronic check,116.28,576.2,Yes
+SYN-000472,Male,0,Yes,No,11,Yes,No,Fiber optic,Yes,No,No,Yes,Yes,Yes,Month-to-month,No,Bank transfer (automatic),105.97,1229.02,Yes
+SYN-000473,Male,0,Yes,No,6,Yes,No,Fiber optic,No,Yes,Yes,Yes,No,Yes,Month-to-month,Yes,Electronic check,112.75,621.48,Yes
+SYN-000474,Male,1,No,No,1,Yes,No,Fiber optic,Yes,No,Yes,No,Yes,Yes,Month-to-month,Yes,Credit card (automatic),114.38,129.43,Yes
+SYN-000475,Male,0,No,Yes,11,Yes,Yes,Fiber optic,Yes,Yes,No,No,No,Yes,Month-to-month,No,Electronic check,102.57,1120.67,Yes
+SYN-000476,Male,0,No,Yes,4,Yes,No,Fiber optic,No,Yes,No,No,Yes,Yes,Month-to-month,Yes,Electronic check,114.57,439.06,Yes
+SYN-000477,Male,0,Yes,No,12,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Mailed check,20.31,235.38,No
+SYN-000478,Female,0,No,No,4,Yes,Yes,DSL,Yes,Yes,Yes,No,Yes,Yes,Month-to-month,Yes,Electronic check,87.41,369.66,Yes
+SYN-000479,Female,0,No,No,11,Yes,No,Fiber optic,No,No,Yes,No,No,No,Month-to-month,No,Credit card (automatic),78.67,887.11,Yes
+SYN-000480,Male,0,Yes,Yes,6,Yes,No,Fiber optic,No,Yes,Yes,No,Yes,No,Two year,Yes,Mailed check,97.96,593.34,No
+SYN-000481,Male,1,Yes,No,6,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Electronic check,18.43,143.36,Yes
+SYN-000482,Male,0,Yes,No,3,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Electronic check,19.14,95.48,Yes
+SYN-000483,Female,0,No,No,10,Yes,No,Fiber optic,No,Yes,Yes,No,No,No,Month-to-month,Yes,Credit card (automatic),93.67,961.19,Yes
+SYN-000484,Male,0,Yes,Yes,0,Yes,Yes,Fiber optic,No,Yes,Yes,No,Yes,No,Month-to-month,Yes,Mailed check,101.45, ,Yes
+SYN-000485,Male,0,No,No,6,Yes,Yes,DSL,Yes,No,No,Yes,Yes,Yes,Month-to-month,No,Credit card (automatic),62.09,387.37,Yes
+SYN-000486,Male,1,Yes,No,4,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Electronic check,25.88,118.5,No
+SYN-000487,Male,0,No,Yes,7,Yes,No,DSL,No,No,Yes,No,Yes,Yes,Month-to-month,No,Credit card (automatic),67.81,450.2,No
+SYN-000488,Male,0,Yes,No,3,Yes,Yes,Fiber optic,No,Yes,Yes,No,No,No,Month-to-month,Yes,Mailed check,88.78,219.26,Yes
+SYN-000489,Female,0,No,No,8,Yes,Yes,Fiber optic,No,Yes,Yes,No,No,No,Month-to-month,Yes,Mailed check,106.98,795.16,Yes
+SYN-000490,Female,0,Yes,Yes,5,Yes,Yes,Fiber optic,No,No,No,No,No,Yes,One year,Yes,Electronic check,99.46,499.4,Yes
+SYN-000491,Female,0,Yes,Yes,2,Yes,No,DSL,No,Yes,Yes,No,No,No,Month-to-month,Yes,Electronic check,62.67,134.28,Yes
+SYN-000492,Female,0,No,No,2,Yes,No,DSL,No,Yes,Yes,No,Yes,Yes,Month-to-month,Yes,Credit card (automatic),71.48,107.51,No
+SYN-000493,Female,0,No,No,9,Yes,No,Fiber optic,No,No,Yes,No,Yes,Yes,Month-to-month,No,Credit card (automatic),86.91,813.57,No
+SYN-000494,Male,0,No,Yes,3,Yes,Yes,Fiber optic,No,Yes,Yes,No,No,Yes,One year,No,Electronic check,108.99,331.54,Yes
+SYN-000495,Female,1,Yes,No,3,Yes,Yes,DSL,No,Yes,No,No,Yes,Yes,Month-to-month,No,Credit card (automatic),67.56,243.16,Yes
+SYN-000496,Female,0,No,No,8,Yes,No,Fiber optic,No,Yes,No,Yes,Yes,Yes,Two year,Yes,Electronic check,100.04,811.44,Yes
+SYN-000497,Male,0,No,Yes,4,Yes,Yes,DSL,No,Yes,No,Yes,No,No,One year,Yes,Electronic check,65.03,228.13,Yes
+SYN-000498,Female,0,No,No,5,Yes,No,Fiber optic,Yes,No,Yes,No,No,No,Month-to-month,No,Electronic check,113.76,582.55,No
+SYN-000499,Male,1,Yes,No,3,Yes,No,Fiber optic,Yes,No,Yes,No,No,No,Month-to-month,Yes,Electronic check,107.07,341.31,Yes
+SYN-000500,Female,0,No,No,4,Yes,No,DSL,No,Yes,No,No,Yes,No,Month-to-month,No,Electronic check,76.27,288.65,Yes
